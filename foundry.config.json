@@ -1,0 +1,11 @@
+{
+  "foundryUrl": "https://hashir.euw-3.palantirfoundry.co.uk",
+  "site": {
+    "application": "ri.third-party-applications.main.application.715d6af2-4992-403c-a1ab-cb110c6ea732",
+    "directory": "./dist",
+    "autoVersion": {
+      "type": "git-describe",
+      "tagPrefix": ""
+    }
+  }
+}

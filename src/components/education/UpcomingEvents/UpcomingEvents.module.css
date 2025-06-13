@@ -1,0 +1,43 @@
+.eventsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.event {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid;
+  transition: transform 0.2s ease-in-out;
+}
+
+.event:hover {
+  transform: translateX(4px);
+}
+
+.eventIcon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.eventContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.eventTitle {
+  font-size: 1rem;
+  color: #2c3e50;
+  margin: 0 0 0.25rem 0;
+  font-weight: 500;
+}
+
+.eventDate {
+  font-size: 0.875rem;
+  color: #6c757d;
+  display: block;
+} 
